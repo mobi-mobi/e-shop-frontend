@@ -1,0 +1,112 @@
+.product-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    justify-self: center;
+
+    width: 90%;
+    height: 70vh;
+}
+
+.product-desc-cont{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2vh;
+    
+}
+
+.idk{
+    max-width: 50%;
+}
+
+.img-cont{
+    width: 40%;
+    height: 70%;
+    padding: 20px;
+}
+
+.img-cont img{
+    height: 100%;
+    width: 100%;
+}
+
+#quantity-input{
+    width: 80%;
+
+    padding: 4px;
+    border-radius: 4px;
+
+    text-align: center;
+}
+
+#add-button{
+    background-color: black;
+    color: white;
+
+
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%;
+    transition: all 0.5s;
+}
+
+#add-button:hover{
+    background-color: rgb(39, 39, 39);
+
+    scale: 1.1;
+}
+
+#product-upper-section{
+    display: flex;
+}
+
+.reviews-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.review-title-cont{
+    width: 80%;
+    border-bottom: 0.5px solid rgb(150, 150, 150);
+}
+
+.review-title-cont:hover{
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+}
+
+.reviews-and-form-cont{
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+    margin-top: 3vh;
+    gap: 4vw;
+
+}
+
+.reviews-cont{
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+    gap: 1vh;
+}
+
+.review-cont{
+    display: flex;
+    flex-direction: column;
+
+    gap: 2vh;
+    padding: 2vw;
+
+    background-color: rgb(236, 236, 236);
+}

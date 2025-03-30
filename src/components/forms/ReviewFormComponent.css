@@ -1,0 +1,13 @@
+.review-form-cont{
+    display: flex;
+    flex-direction: column;
+
+    padding: 4vw;
+    gap: 2vh;
+}
+
+.review-form-cont input{
+    width: 50%;
+    border: none;
+    border-bottom: 0.5px solid black;
+}

@@ -1,0 +1,14 @@
+.swiper-name{
+    justify-self: center;
+
+    font-size: 5vw;
+
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+}
+
+.bars{
+    position: fixed;
+    top: 0;
+    left: 0;
+}

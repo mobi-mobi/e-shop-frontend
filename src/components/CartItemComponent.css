@@ -1,0 +1,46 @@
+.cart-card-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    justify-self: center;
+
+    height: 10vh;
+    width: 100%;
+    gap: 5%;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+
+    font-weight: bolder;
+}
+
+.cart-card-cont img{
+    height: 100%;
+    width: auto;
+}
+
+.cartItem-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: auto;
+}
+
+#remove-button{
+    background-color: black;
+    color: white;
+
+
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem;
+    width: auto;
+    transition: all 0.5s;
+}
+
+#remove-button:hover{
+    background-color: rgb(39, 39, 39);
+
+    scale: 1.1;
+}

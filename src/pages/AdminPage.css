@@ -1,0 +1,47 @@
+.admin-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    flex: 1;
+    
+}
+
+main{
+    display: flex;
+    gap: 10vw;
+    flex: 1;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 15%;
+    height: 60vh;
+    padding-top: 10vh;
+    margin-top: 5vh;
+    gap: 3vh;
+
+    background-color: rgb(255, 255, 255);
+    border-right: 0.5px solid rgb(196, 196, 196);
+}
+
+#res-message{
+    color: rgb(89, 219, 111);
+}
+
+#link{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.form-cont{
+    margin-top: 10vh;
+}
+
+

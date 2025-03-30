@@ -1,0 +1,33 @@
+.add-form-wrapper{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.add-form-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.add-form-cont input{
+    border: none;
+    border-bottom: solid 0.5px black;
+}
+
+#send-button{
+    background-color: black;
+    color: white;
+
+
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem;
+    width: auto;
+    transition: all 0.5s;
+}
+
+#send-button:hover{
+    background-color: rgb(39, 39, 39);
+
+    scale: 1.1;
+}

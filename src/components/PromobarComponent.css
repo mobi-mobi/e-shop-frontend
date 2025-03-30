@@ -1,0 +1,32 @@
+.promobar-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 9vh;
+    font-size: 15px;
+    padding: 1vw;
+    gap: 30vw;
+
+    text-align: center;
+
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 550px) {
+    .promobar-cont{
+        height: 8vh;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+  }
+
+.sale-text-cont{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}

@@ -1,0 +1,37 @@
+.navbar-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100vw;
+    height: 8vh;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.navbar-cont ul{
+    display: flex;
+    gap: 3vw;
+
+    list-style: none;
+}
+
+#sign-button{
+    background-color: black;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+}
+
+#sign-button:hover{
+    color: rgb(223, 223, 223);
+}
+
+#nav-link{
+    color: white;
+    text-decoration: none;
+}

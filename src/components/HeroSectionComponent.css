@@ -1,0 +1,38 @@
+.herosection-cont{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("/HeroPhoto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+    
+    margin-top: 15vh;
+
+    gap: 1vw;
+}
+
+
+@media (max-width: 1200px) {
+    .herosection-cont img {
+      width: 100%;
+    }
+  }
+
+.hero-link{
+  text-decoration: none;
+  color: white;
+
+  font-weight: bolder;
+}
+
+.hero-link:hover{
+  color: rgb(182, 182, 182);
+}
